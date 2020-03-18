@@ -1,0 +1,51 @@
+nav {
+    width: 30vw;
+    height: 100vh;
+    background: rgb(236, 236, 241);
+}
+
+.company {
+    padding-left: 20%;
+    color: rgb(32, 133, 248);
+    font-size: 2.4rem;
+    margin-bottom: 4rem;
+}
+
+.title {
+    padding-left: 20%;
+}
+
+.physician-list {
+    margin-top: 1rem;
+    padding-inline-start: 0;
+}
+
+.physician-list li {
+    cursor: pointer;
+    padding: .6rem 0rem .6rem 6rem;
+    list-style: none;
+}
+
+.physician-list li:hover{
+    background-color: rgb(32, 133, 248);
+    color: white;
+}
+
+.physician-list a {
+    cursor: pointer;
+    padding: .6rem 0rem;
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.physician-list a div{
+    margin-left: 6rem
+}
+
+.physician-list a:hover{
+    background-color: rgb(32, 133, 248);
+    color: white;
+}

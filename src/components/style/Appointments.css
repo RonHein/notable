@@ -1,0 +1,46 @@
+  .physician-container {
+    margin-left: 2rem;
+    width: 100%;
+  }
+
+  .physician {
+    color: black;
+    margin: 4rem 0rem;
+  }
+  
+  #users {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 80%;
+  }
+  
+  #users td, #users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #users tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #users tr:hover {background-color: #ddd;}
+  
+  #users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(32, 133, 248);
+    color: white;
+  }
+
+  .table-footer button {
+    padding: 1rem .5rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 5px;
+  }
+
+  #users td a {
+    display: block;
+    text-decoration: none;
+  }
